@@ -1,0 +1,17 @@
+{
+  "name": "bert-ann-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio website of Bert Ann S. Binasbas, written in TypeScript.",
+  "type": "module",
+  "scripts": {
+    "clean": "node scripts/build.mjs clean",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc && node scripts/build.mjs copy",
+    "watch": "tsc --watch",
+    "serve": "npm run build && npx --yes serve dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
