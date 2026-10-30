@@ -1,6 +1,6 @@
 # Bert Ann S. Binasbas — Portfolio (TypeScript)
 
-Static portfolio site. All JavaScript is now written in TypeScript (strict mode).
+Static portfolio site. Written in TypeScript (strict mode).
 
 ## Structure
 
@@ -25,6 +25,5 @@ npm run watch      # recompile TS on save
 npm run serve      # build and preview locally
 ```
 
-## Deploy (Netlify)
-
-`netlify.toml` is included: build command `npm run build`, publish directory `dist`.
+## Deployed (Netlify)
+https://elegant-marshmallow-c82989.netlify.app
